@@ -1,0 +1,41 @@
+{
+  "name": "@dblk/adblocks",
+  "version": "0.1.0",
+  "description": "Add a capabality to kill some requests for CICP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "private": true,
+  "plugin": {
+    "provides": [
+      "adblocks"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dblk/adblocks"
+  },
+  "homepage": "https://github.com/dblk/adblocks#readme",
+  "keywords": [
+    "cicp",
+    "adblock",
+    "kill",
+    "yamp"
+  ],
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "author": {
+    "name": "Remy Boulanouar",
+    "email": "admin@dblk.org"
+  },
+  "license": "MIT"
+}
